@@ -7,6 +7,7 @@ namespace LoadAssemblyToDomainAndExecute.Master
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Current Domain Name: " + AppDomain.CurrentDomain.FriendlyName);
             using (BootstrapDomain<IBootstrap> bootstrapDomain = new BootstrapDomain<IBootstrap>(
                 "LoadAssemblyToDomainAndExecute.Worker.Joseph",
                 "LoadAssemblyToDomainAndExecute.Worker.Joseph.Startup"))

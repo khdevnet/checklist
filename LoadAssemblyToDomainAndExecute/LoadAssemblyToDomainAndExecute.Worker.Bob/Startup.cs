@@ -7,6 +7,7 @@ namespace LoadAssemblyToDomainAndExecute.Worker.Bob
     {
         public void Run()
         {
+            Console.WriteLine("Domain Name: " + AppDomain.CurrentDomain.FriendlyName);
             new BobWorker().DoSomething();
         }
     }

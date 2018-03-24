@@ -6,7 +6,6 @@ namespace LoadAssemblyToDomainAndExecute.Worker.Bob
     {
         public void DoSomething()
         {
-            Console.WriteLine("Host domain: " + AppDomain.CurrentDomain.FriendlyName);
             Console.WriteLine("My name is Bob!");
             Console.WriteLine("Working for you Master!");
         }

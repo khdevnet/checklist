@@ -7,6 +7,7 @@ namespace LoadAssemblyToDomainAndExecute.Worker.Joseph
     {
         public void Run()
         {
+            Console.WriteLine("Domain Name: " + AppDomain.CurrentDomain.FriendlyName);
             new JosephWorker().DoSomething();
         }
     }

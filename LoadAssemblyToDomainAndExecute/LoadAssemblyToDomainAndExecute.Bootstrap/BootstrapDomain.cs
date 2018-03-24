@@ -9,7 +9,7 @@ namespace LoadAssemblyToDomainAndExecute.Bootstrap
 
         public BootstrapDomain(string assemblyName, string typeName)
         {
-            domain = AppDomain.CreateDomain("Isolated:" + Guid.NewGuid(),
+            domain = AppDomain.CreateDomain(assemblyName,
                null, AppDomain.CurrentDomain.SetupInformation);
             var bootstrapInstane = domain.CreateInstanceAndUnwrap(assemblyName, typeName);
             value = (T)domain.CreateInstanceAndUnwrap(assemblyName, typeName);

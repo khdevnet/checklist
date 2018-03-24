@@ -1,5 +1,5 @@
 # .Net Domains Manipulation
-
+![](AppDomain.jpg)
 #### Examples
 * Execute Method In Seperate Domain   
   Flow:

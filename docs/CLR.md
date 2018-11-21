@@ -23,3 +23,4 @@ Hashtable, System.Collections.Generic.Dictionary и любых других ко
 соответствие алгоритма
 10. [Events vs Delegate](https://dzone.com/articles/event-vs-delegate)
 11. Контравариантные и ковариантные аргументы-типы в делегатах и интерфейсах (рихтер 317)
+12. [Collections](http://geekswithblogs.net/BlackRabbitCoder/archive/2011/06/16/c.net-fundamentals-choosing-the-right-collection-class.aspx)

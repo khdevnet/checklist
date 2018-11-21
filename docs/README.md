@@ -3,6 +3,7 @@
 * GetHashcode, Equals
 * Finialize, Dispose
 * Collections
+* Data types
 
 **TODO:**
 * OWIN, Middleware, Asp.net Core Request flow, ETL, HTTP 2.

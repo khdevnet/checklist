@@ -34,3 +34,11 @@ are not objects in themselves but are instead references to objects. Any object 
 If a ***managed object is passed to an unmanaged COM+ library through interop***, then it will also become a GC root with a reference count. This is because COM+ doesn’t do garbage collection: It uses, instead, a reference counting system; once the COM+ library finishes with the object by setting the reference count to 0 it ceases to be a GC root and can be collected again.
 
 If ***an object has a finalizer***, it is not immediately removed when the garbage collector decides it is no longer ‘live’. Instead, it becomes a special kind of root until .NET has called the finalizer method. This means that these objects usually require more than one garbage collection to be removed from memory, as they will survive the first time they are found to be unused.
+
+***Garbage collection occurs when one of the following conditions is true:***
+
+***The system has low physical memory.*** This is detected by either the low memory notification from the OS or low memory indicated by the host.
+
+***The memory that is used by allocated objects on the managed heap surpasses an acceptable threshold***. This threshold is continuously adjusted as the process runs.
+
+The ***GC.Collect method is called***. In almost all cases, you do not have to call this method, because the garbage collector runs continuously. This method is primarily used for unique situations and testing.

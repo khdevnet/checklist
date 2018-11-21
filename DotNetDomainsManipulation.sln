@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblyToDomainAndExec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadAssemblyToDomainAndExecute.Bootstrap", "LoadAssemblyToDomainAndExecute\LoadAssemblyToDomainAndExecute.Bootstrap\LoadAssemblyToDomainAndExecute.Bootstrap.csproj", "{AAA379C9-31FE-4F90-AB5A-B4CDB8A82A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFramework.DynamicType", "DotNetFramework.DynamicType\DotNetFramework.DynamicType.csproj", "{2CB41237-2FF0-4220-B309-7F71160DCBD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetFrameworkDynamicType", "DotNetFrameworkDynamicType", "{432D7715-C5DC-431E-9612-A95044B34874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{AAA379C9-31FE-4F90-AB5A-B4CDB8A82A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA379C9-31FE-4F90-AB5A-B4CDB8A82A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA379C9-31FE-4F90-AB5A-B4CDB8A82A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB41237-2FF0-4220-B309-7F71160DCBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB41237-2FF0-4220-B309-7F71160DCBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB41237-2FF0-4220-B309-7F71160DCBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB41237-2FF0-4220-B309-7F71160DCBD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{26BBB8D9-79EE-402C-AD92-CC18C0E639AB} = {27A3F63F-B761-4077-B626-257FD32EA884}
 		{A0F8AAF7-7952-45A2-89E8-EAB32405142F} = {27A3F63F-B761-4077-B626-257FD32EA884}
 		{AAA379C9-31FE-4F90-AB5A-B4CDB8A82A95} = {27A3F63F-B761-4077-B626-257FD32EA884}
+		{2CB41237-2FF0-4220-B309-7F71160DCBD5} = {432D7715-C5DC-431E-9612-A95044B34874}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98A611E8-28D0-4EF1-9947-71DA2190B828}

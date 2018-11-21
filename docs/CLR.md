@@ -21,3 +21,4 @@ Hashtable, System.Collections.Generic.Dictionary и любых других ко
 требует, чтобы два равных объекта имели одинаковые значения хеш-кодов. По-
 этому, переопределяя Equals, нужно переопределить GetHashCode и обеспечить
 соответствие алгоритма
+10. [Events vs Delegate](https://dzone.com/articles/event-vs-delegate)

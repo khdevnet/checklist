@@ -35,7 +35,7 @@ If a ***managed object is passed to an unmanaged COM+ library through interop***
 
 If ***an object has a finalizer***, it is not immediately removed when the garbage collector decides it is no longer ‘live’. Instead, it becomes a special kind of root until .NET has called the finalizer method. This means that these objects usually require more than one garbage collection to be removed from memory, as they will survive the first time they are found to be unused.
 
-***Garbage collection occurs when one of the following conditions is true:***
+[Garbage collection occurs when one of the following conditions is true](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 
 ***The system has low physical memory.*** This is detected by either the low memory notification from the OS or low memory indicated by the host.
 

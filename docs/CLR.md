@@ -22,3 +22,4 @@ Hashtable, System.Collections.Generic.Dictionary и любых других ко
 этому, переопределяя Equals, нужно переопределить GetHashCode и обеспечить
 соответствие алгоритма
 10. [Events vs Delegate](https://dzone.com/articles/event-vs-delegate)
+11. Контравариантные и ковариантные аргументы-типы в делегатах и интерфейсах (рихтер 317)

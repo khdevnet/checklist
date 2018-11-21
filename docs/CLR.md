@@ -24,7 +24,7 @@ Hashtable, System.Collections.Generic.Dictionary и любых других ко
 10. [Events vs Delegate](https://dzone.com/articles/event-vs-delegate)
 11. Контравариантные и ковариантные аргументы-типы в делегатах и интерфейсах (рихтер 317)
 12. [Collections](http://geekswithblogs.net/BlackRabbitCoder/archive/2011/06/16/c.net-fundamentals-choosing-the-right-collection-class.aspx)
-13. ***GC roots*** 
+13. ***GC roots***    
 are not objects in themselves but are instead references to objects. Any object referenced by a GC root will automatically survive the next garbage collection. There are four main kinds of root in .NET:
 
 ***A local variable*** in a method that is currently running is considered to be a GC root. The objects referenced by these variables can always be accessed immediately by the method they are declared in, and so they must be kept around. The lifetime of these roots can depend on the way the program was built. In debug builds, a local variable lasts for as long as the method is on the stack. In release builds, the JIT is able to look at the program structure to work out the last point within the execution that a variable can be used by the method and will discard it when it is no longer required. This strategy isn’t always used and can be turned off, for example, by running the program in a debugger.

@@ -1,6 +1,7 @@
 
 **TODO: .NET**
 * GetHashcode, Equals
+* IEquatable, IComparable
 * Finialize, Dispose
 * Collections
 * Data types

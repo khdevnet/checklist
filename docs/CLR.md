@@ -84,8 +84,10 @@ The benefits of code contracts include the following:
 
 * Reference documentation: The documentation generator augments existing XML documentation files with contract information. There are also style sheets that can be used with Sandcastle so that the generated documentation pages have contract sections.
 
-16. ***[ref vs out](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/ref)*** keywords Passing an argument by reference
-
+16. ***[ref vs out vs in](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/ref)*** keywords Passing an argument by reference
+* ***in*** arguments cannot be modified by the called method. 
+* ***ref*** arguments may be modified.
+* ***out*** arguments must be modified by the called method, and those modifications are observable in the calling context.
 ```
 class Product
 {

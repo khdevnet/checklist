@@ -124,3 +124,5 @@ private static void ChangeByReference(ref Product itemRef)
     itemRef.ItemID = 12345;
 }
 ```
+
+17. An ***interface*** contains only the signatures of methods, properties, events or indexers.

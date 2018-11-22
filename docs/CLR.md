@@ -71,3 +71,14 @@ catch (Exception e) {
 }
 }
 ```
+
+15. ***Code Contracts***
+The benefits of code contracts include the following:
+
+* Improved testing: Code contracts provide static contract verification, runtime checking, and documentation generation.
+
+* Automatic testing tools: You can use code contracts to generate more meaningful unit tests by filtering out meaningless test arguments that do not satisfy preconditions.
+
+* Static verification: The static checker can decide whether there are any contract violations without running the program. It checks for implicit contracts, such as null dereferences and array bounds, and explicit contracts.
+
+* Reference documentation: The documentation generator augments existing XML documentation files with contract information. There are also style sheets that can be used with Sandcastle so that the generated documentation pages have contract sections.

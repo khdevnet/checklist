@@ -42,3 +42,25 @@ If ***an object has a finalizer***, it is not immediately removed when the garba
 ***The memory that is used by allocated objects on the managed heap surpasses an acceptable threshold***. This threshold is continuously adjusted as the process runs.
 
 The ***GC.Collect method is called***. In almost all cases, you do not have to call this method, because the garbage collector runs continuously. This method is primarily used for unique situations and testing.
+
+14. ***Exceptions*** При появлении исключения CLR обнуляет его начальную точку. То есть CLR запоминает только место появления самого последнего исключения.
+```
+private void SomeMethod() {
+try { ... }
+catch (Exception e) {
+  ...
+  throw e; // CLR считает, что исключение возникло тут
+  // FxCop сообщает об ошибке
+}
+}
+```
+```
+private void SomeMethod() {
+try { ... }
+catch (Exception e) {
+  ...
+  throw; // CLR не меняет информацию о начальной точке исключения.
+  // FxCop НЕ сообщает об ошибке
+}
+}
+```

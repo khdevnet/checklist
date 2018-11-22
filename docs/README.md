@@ -1,4 +1,11 @@
 
+**TODO: .NET**
+* GetHashcode, Equals
+* IEquatable, IComparable
+* Finialize, Dispose
+* Collections
+* Data types
+
 **TODO:**
 * OWIN, Middleware, Asp.net Core Request flow, ETL, HTTP 2.
 * OOAD, OOD, SOLID.

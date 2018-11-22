@@ -43,7 +43,9 @@ If ***an object has a finalizer***, it is not immediately removed when the garba
 
 The ***GC.Collect method is called***. In almost all cases, you do not have to call this method, because the garbage collector runs continuously. This method is primarily used for unique situations and testing.
 
-14. ***Exceptions*** При появлении исключения CLR обнуляет его начальную точку. То есть CLR запоминает только место появления самого последнего исключения.
+14. ***Exceptions*** 
+* Есть CLR совместимые исключения и CLR не совместимые, CLR несовместимые исключения оборачиваются в WraperException и перехватываются CLR (реализовано c версии 2.0). Все исключения перехватываются типом Exception.   
+* При появлении исключения CLR обнуляет его начальную точку. То есть CLR запоминает только место появления самого последнего исключения.
 ```
 private void SomeMethod() {
 try { ... }

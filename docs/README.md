@@ -13,3 +13,9 @@
 * CQRS, Event Sourcing.
 * Garbage Collector, Domains, Mutex, Semaphore, Critical Section.
 * Database Indexes vs Virtual Indexes, Search in database by indexes, ACID, Normalization DB, Query JOINS, Parameter snifing.
+
+### [HTTP/2 Feature Upgrades](https://kinsta.com/learn/what-is-http2)
+**Multiplexed streams**
+Bi-directional sequence of text format frames sent over the HTTP/2 protocol exchanged between the server and client are known as “streams”
+**HTTP/2 Server Push**
+This capability allows the server to send additional cacheable information to the client that isn’t requested but is anticipated in future requests.

@@ -34,3 +34,12 @@ Fixed
 let message = isPositionCorrect ? "Position Correct" : "Position InCorrect"
 updateUI(message, isPositionCorrect)
 ```
+
+**Namings**
+Use Nouns for Classes
+Use verbs for methods
+Use mingfull names for variables, classes, methods.
+Use mingfull namespaces names
+Code should describe context (namespaces), buissines logic flow (migfull names for variables, methods)
+
+**Use SOLID principles**

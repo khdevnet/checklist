@@ -136,4 +136,14 @@ private static void ChangeByReference(ref Product itemRef)
     
 Код другого домена может получить **доступ к объекту**, только используя семантику **продвижения по ссылке** (marshalby-
 reference) или **по значению** (marshal-by-value)
+Marshal By Reference
+All types which derive from MarshalByRefObject will marshal by reference. These object instances do not travel between AppDomain instances. They are allocated in a specific AppDomain and do not leave it.
+
+When a reference to a **MarshalByRefObject** is passed across an AppDomain boundary a proxy is created in the target AppDomain. This proxy can be used to manipulate the object in the original AppDomain but the object itself is not directly accessible.
+
+**Marshal By Value** Essentially the opposite of MarshalByRefObject. When these values are passed across AppDomain boundaries they are serialized via binary serialization and deserialized in the target AppDomain instance. The result is two, hopefully, independent values. One in each domain.
+
+**Marshal By Bleed** Certain classes of types are known as Domain Neutral. In particular string, Type and other reflection members. These objects do not live in a particular AppDomain and references to them can be freely shared between them. They are similar to marshal by reference in that duplicates are not created but proxies are not created either. Instead the direct reference is shared between AppDomain instances.
+
+
 

@@ -35,3 +35,10 @@ When a transaction runs in isolation, it appears to be the only action that the 
 * VIEWS хранят select запросы
 * Пользовательские функции
 * распределенные источники данных (Excel, Oracle)
+
+
+### TODO:
+* JOINS
+* CROSS JOIN example
+* INDEX types
+* Binary search

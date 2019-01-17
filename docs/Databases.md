@@ -42,3 +42,5 @@ When a transaction runs in isolation, it appears to be the only action that the 
 * CROSS JOIN example
 * INDEX types
 * Binary search
+* Parameter snifing
+* Deadlock

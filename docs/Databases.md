@@ -1,5 +1,13 @@
 # Databases
-**ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability**
+#### Database normalization
+* First Normal Form – The information is stored in a relational table and each column contains atomic values, and there are not repeating groups of columns.
+* Second Normal Form – The table is in first normal form and all the columns depend on the table’s primary key.
+* Third Normal Form – the table is in second normal form and all of its columns are not transitively dependent on the primary key
+* Boyce–Codd normal form
+
+[Resource](https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/)
+
+#### ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability
 * Atomicity  
 The atomicity property identifies that the transaction is atomic. An atomic transaction is either fully completed, or is not begun at all. Any updates that a transaction might affect on a system are completed in their entirety. If for any reason an error occurs and the transaction is unable to complete all of its steps, the then system is returned to the state it was in before the transaction was started.
 

@@ -18,4 +18,4 @@
 * DRY, LoD, SoC, KISS, Low coupoling and high cohesion
 * CQRS, Event Sourcing.
 * Mutex, Semaphore, Critical Section.
-* Database Indexes vs Virtual Indexes, Search in database by indexes, ACID, Normalization DB, Query JOINS, Parameter snifing.
+* [Databases](https://github.com/khdevnet/checklist/blob/master/docs/Databases.md)

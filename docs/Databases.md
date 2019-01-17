@@ -36,6 +36,8 @@ When a transaction runs in isolation, it appears to be the only action that the 
 * Пользовательские функции
 * распределенные источники данных (Excel, Oracle)
 
+#### JOINS
+[!](https://github.com/khdevnet/checklist/blob/master/docs/src/databases/Visual_SQL_JOINS_orig.jpg)
 
 ### TODO:
 * JOINS

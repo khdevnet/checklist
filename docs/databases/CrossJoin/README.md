@@ -1,6 +1,6 @@
 # CROSS JOIN
 ### TASK
-Calculate average mark groped by student and subject.
+Calculate average mark grouped by student and subject.
 
 ### Configure Database
 * Create Database University

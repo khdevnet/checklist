@@ -39,9 +39,12 @@ When a transaction runs in isolation, it appears to be the only action that the 
 #### JOINS
 ![](https://github.com/khdevnet/checklist/blob/master/docs/src/databases/Visual_SQL_JOINS_orig.jpg)
 
+#### CROSS JOIN
+[Sample](https://www.essentialsql.com/cross-join-introduction/)
+
 ### TODO:
 * JOINS
-* CROSS JOIN example
+
 * INDEX types
 * Binary search
 * Parameter snifing

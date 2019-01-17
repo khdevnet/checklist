@@ -16,4 +16,22 @@ A transaction enforces consistency in the system state by ensuring that at the e
 
 * Isolation
 When a transaction runs in isolation, it appears to be the only action that the system is carrying out at one time. If there are two transactions that are both performing the same function and are running at the same time, transaction isolation will ensure that each transaction thinks it has exclusive use of the system. This is important in that as the transaction is being executed, the state of the system may not be consistent. 
+* Durability A transaction is durable in that once it has been successfully completed, all of the changes it made to the system are permanent. There are safeguards that will prevent the loss of information, even in the case of system failure. By logging the steps that the transaction performs, the state of the system can be recreated even if the hardware itself has failed. The concept of durability allows the developer to know that a completed transaction is a permanent part of the system, regardless of what happens to the system later on.   
+
 [Resource](https://msdn.microsoft.com/en-us/library/aa480356.aspx)
+
+#### SQL Query
+* SELECT - сообщает серверу какие данные следует извлечь
+* FROM - собирает все источники данных в единый набор
+* WHERE - фильтрует наборы данных собранных FROM
+* GROUP BY - групирует большие множества в подмножества и применяет агрегатные функции
+* HAVING - фильтрует сгрупированыые подмножества
+* ORDER BY - определяет порядок сортировки
+
+#### Возможные источники данных
+* Таблицы SQL Server
+* Подзапросы выступающие в роли временных таблиц, также называемые подвыборками
+* Общие табличные представления CTE (вместо создания Views используется ключевое слово WITH)
+* VIEWS хранят select запросы
+* Пользовательские функции
+* распределенные источники данных (Excel, Oracle)

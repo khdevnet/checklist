@@ -18,4 +18,4 @@
 * DRY, LoD, SoC, KISS, Low coupoling and high cohesion
 * CQRS, Event Sourcing.
 * Mutex, Semaphore, Critical Section.
-* [Databases](https://github.com/khdevnet/checklist/blob/master/Databases)
+* [Databases](https://github.com/khdevnet/checklist/tree/master/databases)

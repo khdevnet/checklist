@@ -37,13 +37,17 @@ When a transaction runs in isolation, it appears to be the only action that the 
 * распределенные источники данных (Excel, Oracle)
 
 #### JOINS
-![](https://github.com/khdevnet/checklist/blob/master/docs/src/databases/Visual_SQL_JOINS_orig.jpg)
+![](https://github.com/khdevnet/checklist/blob/master/databases/src/Visual_SQL_JOINS_orig.jpg)
 
 #### [CROSS JOIN](https://github.com/khdevnet/checklist/tree/master/docs/databases/CrossJoin)
 
-### TODO:
-* JOINS
+#### Pages and Extents
+The fundamental unit of data storage in SQL Server is the **page**. The disk space allocated to a data file (.mdf or .ndf) in a database is logically divided into pages numbered contiguously from 0 to n. Disk I/O operations are performed at the page level. That is, SQL Server reads or writes whole data pages.
 
+**Extents** are a collection of eight physically contiguous pages and are used to efficiently manage the pages. All pages are stored in extents.
+
+### TODO:
+* Pages extends
 * INDEX types
 * Binary search
 * Parameter snifing

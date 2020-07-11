@@ -1,7 +1,9 @@
 
 ### Checklist
 #### .NET
-* GetHashcode, Equals
+##### GetHashcode, Equals
+* [Generate Equals and GetHashCode](https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-equals-gethashcode-methods?view=vs-2019)
+* [GetHashCode and Equals override in C#](https://www.codementor.io/@dhananjaykumar/gethashcode-and-equals-override-in-c-y7vugbpie)
 * IEquatable, IComparable
 * Domains
 * Exceptions handling

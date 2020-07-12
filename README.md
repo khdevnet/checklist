@@ -4,7 +4,9 @@
 ##### GetHashcode, Equals
 * [Generate Equals and GetHashCode](https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-equals-gethashcode-methods?view=vs-2019)
 * [GetHashCode and Equals override in C#](https://www.codementor.io/@dhananjaykumar/gethashcode-and-equals-override-in-c-y7vugbpie)
-* IEquatable, IComparable
+##### IEquatable, IComparable
+#####
+* [Delegate vs events](https://docs.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events)
 ##### Domains
 * [application-domains](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/application-domains)
 #####  Exceptions handling

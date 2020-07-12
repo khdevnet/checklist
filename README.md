@@ -2,11 +2,11 @@
 # Checklist
 ## .NET
 ### Covariance and Contravariance in Generics
-* **Covariance** Enables you to use a more derived type than originally specified. You can assign an instance of IEnumerable<Derived> (IEnumerable(Of Derived) in Visual Basic) to a variable of type IEnumerable<Base>.
+* **Covariance** Enables you to use a more derived type than originally specified. You can assign an instance of ```IEnumerable<Derived>``` (IEnumerable(Of Derived) in Visual Basic) to a variable of type ```IEnumerable<Base>```.
 
-* **Contravariance** Enables you to use a more generic (less derived) type than originally specified. You can assign an instance of Action<Base> (Action(Of Base) in Visual Basic) to a variable of type Action<Derived>.
+* **Contravariance** Enables you to use a more generic (less derived) type than originally specified. You can assign an instance of Action<Base> (Action(Of Base) in Visual Basic) to a variable of type ```Action<Derived>```.
 
-* **Invariance** Means that you can use only the type originally specified; so an invariant generic type parameter is neither covariant nor contravariant. You cannot assign an instance of List<Base> (List(Of Base) in Visual Basic) to a variable of type List<Derived> or vice versa.
+* **Invariance** Means that you can use only the type originally specified; so an invariant generic type parameter is neither covariant nor contravariant. You cannot assign an instance of ```List<Base>``` (List(Of Base) in Visual Basic) to a variable of type List<Derived> or vice versa.
   
 ### GetHashcode, Equals
 * [Generate Equals and GetHashCode](https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-equals-gethashcode-methods?view=vs-2019)

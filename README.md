@@ -37,7 +37,7 @@
 ###  Finialize, Dispose
 ###  Collections
 ###  Data types
-###  asp.net Core Request flow,
+###  [asp.net Core Request flow](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 ###  OWIN
 
 ## Other

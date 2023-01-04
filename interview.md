@@ -6,6 +6,16 @@ Often, the models of an architecture description are organized into multiple vie
 [res](https://en.wikipedia.org/wiki/Software_architecture_description)
 
 ## SA languages
+[Architecture_description_language wiki](https://en.wikipedia.org/wiki/Architecture_description_language)
 [res](https://cio-wiki.org/wiki/Architecture_Description_Language_(ADL))
+
+## SA view points
+https://sparxsystems.com/enterprise_architect_user_guide/15.2/model_domains/archimate-basic-viewpoints.html
+
+## Blue green deployment
+https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html
+
+## Multiple services per host
+https://microservices.io/patterns/deployment/multiple-services-per-host.html
 
 

@@ -19,3 +19,7 @@ https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/blueg
 https://microservices.io/patterns/deployment/multiple-services-per-host.html
 
 
+## MVC, MVP, MVVM
+[mvc vs mvp](https://www.geeksforgeeks.org/difference-between-mvc-and-mvp-architecture-pattern-in-android/)
+[mvp vs mvvm](https://www.geeksforgeeks.org/difference-between-mvp-and-mvvm-architecture-pattern-in-android/)
+

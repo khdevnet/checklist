@@ -8,6 +8,7 @@
 
 
 # Define non functional requrements
+* Is it use from mobile devices/web/desktop?
 * Is it world wide or local distribeted system? 
 * Is it low/high load intensive application?
 * Is system has some SLAs (response time, availability)?

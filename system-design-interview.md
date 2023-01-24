@@ -11,6 +11,7 @@
 * Is it world wide or local distribeted system? 
 * Is it low/high load intensive application?
 * Is system has some SLAs (response time, availability)?
+* What is the consistency for the data?
 
 # Budget restrictions
 # Team size restrictions

@@ -12,6 +12,9 @@
 * Is it world wide or local distribeted system? 
 * Is it low/high load intensive application?
 * Is system has some SLAs (response time, availability)?
+
+# Data
+* What is the policies about data lost? What is the redundancy of the data should be?
 * What is the consistency for the data?
 
 # Budget restrictions

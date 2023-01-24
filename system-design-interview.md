@@ -5,6 +5,7 @@
 * Do we have admin roles?
 * Is users store some files?
 * Is system has some goverment restrictions?
+* Do we collect user activity analytics?
 
 
 # Define non functional requrements
